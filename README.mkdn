@@ -14,7 +14,7 @@ First, we need to create directories for the build:
 
 Now we'll need repo. Let's download it and make it executable:
 
-    $ curl http://android.git.kernel.org/repo > ~/bin/repo
+    $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
     
     $ chmod a+x ~/bin/repo
 
@@ -24,7 +24,7 @@ Now initialized the repository and pull the source (with my repos attached):
 
     $ cd ~/android/system/
     
-    $ repo init -u git://github.com/playfulgod/android.git -b gingerbread
+    $ repo init -u git://github.com/ShunYea/android.git -b gingerbread
     
     $ repo sync -j16
 
